@@ -1,0 +1,149 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default:
+Medium:
+Semi-bold:
+Bold:
+
+- Line heights
+Default:
+Small:
+Medium:
+Paragraph default:
+Large:
+
+- Letter spacing
+-
+--- 02 COLORS
+
+- Primary:
+- Tints:
+
+- Shades:
+
+- Accents:
+- Greys
+  333
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+Default:
+Medium:
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/***************/
+/***GENERAL***/
+/***************/
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+
+  margin-top: 1rem;
+  gap: 20px;
+  padding: 4rem;
+  align-items: center;
+  background-color: #f9f6ee;
+  opacity: 60%;
+}
+
+body {
+  background-image: url("./../assets/img/blueberry.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #444;
+}
+
+.logo-text {
+  font-size: 3rem;
+  margin-left: 14rem;
+  color: #000;
+  font-weight: 600;
+}
+
+/***Navigation***/
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  padding: 0 2rem;
+  font-size: 2.2rem;
+  color: #333;
+}
+
+/*** Links ***/
+
+.nav-bar li a:link,
+.nav-bar li a:visited {
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+  text-decoration: none;
+  color: #888;
+}
+
+/***Section intro ***/
+
+.intro-container {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  background-color: #f9f6ee;
+  border-radius: 15px;
+  min-height: 70vh;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.intro-div {
+  padding: 5rem 10rem;
+}
+
+.premium {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.intro-paragraphs {
+  margin-top: 2rem;
+}
+
+.normal-text {
+  font-size: 2.5rem;
+  line-height: 2;
+}
