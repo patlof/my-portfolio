@@ -144,13 +144,14 @@ body {
 }
 
 .normal-text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   line-height: 2;
 }
 
 /*** About ***/
 .about-text {
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
   line-height: 2;
 }
 
@@ -189,11 +190,43 @@ textarea {
   align-self: flex-end;
 }
 
+.frog-image {
+  align-self: flex-end;
+  margin-top: 3rem;
+}
+
 .btn {
   padding: 0.5rem 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 5px;
   border: none;
   background-color: cadetblue;
   box-shadow: 1px 1px 1px #888;
+}
+
+/*** Projects ***/
+.projects {
+  margin-top: 2rem;
+}
+
+.links-portfolio a:link,
+.links-portfolio a:visited {
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.links-portfolio a:hover,
+.links-portfolio a:active {
+  font-size: 1.8rem;
+  color: #888;
+}
+
+.languages {
+  font-size: 1.5rem;
+}
+
+.paragraph-project {
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
