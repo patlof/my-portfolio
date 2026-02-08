@@ -122,13 +122,13 @@ body {
 
 .container {
   padding: 5rem 10rem;
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
 
   margin-top: 10rem;
   background-color: #f9f6ee;
   border-radius: 15px;
-  min-height: 70vh;
+  min-height: 60vh;
   opacity: 90%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
@@ -146,6 +146,10 @@ body {
 .normal-text {
   font-size: 1.8rem;
   line-height: 2;
+}
+
+.frog-intro {
+  height: 180px;
 }
 
 /*** About ***/

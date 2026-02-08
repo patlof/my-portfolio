@@ -1,0 +1,98 @@
+/* rem and em do NOT depend on html font-size in media queries!
+instead, 1rem = 1em = 16px */
+
+/* 1350 screensize/16 = 84 */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .logo-text {
+    font-size: 2.3rem;
+    margin-left: 5rem;
+  }
+
+  /***Navigation***/
+
+  .nav-bar li {
+    padding: 0 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  /***Section intro ***/
+
+  .container {
+    padding: 5rem 10rem;
+    width: 50%;
+    margin: 0 auto;
+
+    margin-top: 10rem;
+    background-color: #f9f6ee;
+    border-radius: 15px;
+    min-height: 60vh;
+    opacity: 90%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+
+  .premium {
+    font-size: 2.8rem;
+  }
+
+  .normal-text {
+    font-size: 1.7rem;
+    line-height: 2;
+  }
+
+  .frog-intro {
+    height: 150px;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape tablets) */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.2% */
+    font-size: 56.25%;
+  }
+
+  .frog-intro {
+    height: 130px;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 59em) {
+  /* 8px / 16px = 50% */
+
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* MOBILE NAVIGATION */
+/**************************/
+
+/**************************/
+/* SMALLER TABLETS */
+/**************************/
+/* 700/16= 43.75 = 44 */
+@media (max-width: 44em) {
+  /*Section into*/
+}
+/**************************/
+/* Below 600px for Phones */
+/*600/16= 38em*/
+/**************************/
+
+@media (max-width: 38em) {
+}
