@@ -121,7 +121,7 @@ body {
 /***Section intro ***/
 
 .container {
-  padding: 5rem 10rem;
+  padding: 5rem 10rem 0 10rem;
   width: 40%;
   margin: 0 auto;
 
@@ -145,7 +145,7 @@ body {
 
 .normal-text {
   font-size: 1.8rem;
-  line-height: 2;
+  line-height: 1.7;
 }
 
 .frog-intro {
@@ -153,6 +153,20 @@ body {
 }
 
 /*** About ***/
+
+.about-container {
+  padding: 5rem 10rem 0 10rem;
+  width: 40%;
+  margin: 0 auto;
+
+  margin-top: 10rem;
+  background-color: #f9f6ee;
+  border-radius: 15px;
+  min-height: 77vh;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
 .about-text {
   margin-top: 1rem;
   font-size: 1.8rem;
